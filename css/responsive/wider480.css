@@ -1,0 +1,94 @@
+/* ================ WIDER480 ================ */
+
+div.slider span { font-size: 40px !important; }
+
+div.slider div.caption {
+	left: 20%;
+	bottom: 65px !important;
+}
+
+section[data-target="home"] .content {
+	bottom: 60px;
+}
+
+div#modalForm {
+    padding: 20px;
+}
+
+div#modalForm div#formCaption {
+    font-size: 20px;
+}
+
+div#modalForm p {
+    margin-top: 20px;
+}
+
+div#modalForm div.callBlock .phoneNumber, div#modalForm div.callBlock span {
+    display: block;
+}
+
+section, footer, footer .social {
+	text-align: center !important;
+}
+
+section h1 { font-size: 60px; }
+
+.grid_1_5 {
+	width: 46%;
+}
+
+.grid_4 {
+	width: 27.4%;
+}
+
+.grid_3 {
+	width: 46%;
+}
+
+.grid_5 {
+	width: 27.4%;
+}
+
+.callBlock {
+	padding: 12px;
+	text-align: center !important;
+}
+
+.callBlock .grid_2:first-of-type {
+    width: 75%;
+    float: none;
+}
+
+.callBlock .grid_2 {
+    width: 96%;
+    padding: 2%;
+}
+
+div.callBlock p {
+    text-align: center;
+    width: auto;
+    margin-top: 0px;
+}
+
+div.callBlock form input[type='text'], footer form input[type='text'] {
+	width: auto;
+	margin: 0 auto;
+	margin-bottom: 12px;
+}
+
+section div.callBlock .phoneNumber, section div.callBlock span {
+    display: none;
+}
+
+body footer {
+	padding-bottom: 48px;
+}
+
+div.footerMenu, .copy  {
+	width: 100%;
+    float: none;
+    text-align: center;
+}
+
+/* ================ /WIDER480 ================ */
+

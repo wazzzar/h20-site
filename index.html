@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="apple-mobile-web-app-capable" content="YES">
+		
+		<title>H2O</title>
+		
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700,900&subset=latin,cyrillic-ext,cyrillic"
+				rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	  	<link href="js/orbitSlider/orbit.css" rel="stylesheet">
+		<link media="screen and (max-width: 1000px)"  href="css/mobyMenu.css" rel="stylesheet" id="mobyMenuWidth">
+		
+		<!-- responsive -->
+		<link media="screen and (max-width: 14400px)" href="css/responsive/wider960.css" rel="stylesheet">
+		<link media="screen and (max-width: 960px)"   href="css/responsive/wider480.css" rel="stylesheet">
+		<link media="screen and (max-width: 480px)"   href="css/responsive/wider320.css" rel="stylesheet">
+		<link media="screen and (max-width: 320px)"   href="css/responsive/wider240.css" rel="stylesheet">
+		<!-- /responsive -->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/orbitSlider/jquery.orbit.js"></script>
+		
+		<script src="js/main.js" defer></script>
+	</head>
+	
+	<body lang="ru" spellcheck="true" translate="yes">
+		<!-- <div style="position: absolute; z-index:-1; width:100%; text-align:center;">
+			<img src="img/sayt_pererisovka.png" alt="">
+		</div> -->
+	
+		<header>
+			<div class="content">
+				<div class="logo">
+					<img src="img/logo.png" alt="logo">
+				</div>
+				<div class="orgName">H2O - Сервис</div>
+				<div class="redPhone"><span></span>634-632</div>
+				<div class="menu hidden">
+					<img src="img/icons/menuIcon.png" alt="menu">
+				</div>
+				<nav class="menu hidden">
+					<ul>
+						<li data-menuanchor="home"><a href="#home">Home</a></li>
+						<li>
+							<a href="#aboutUs">About Us</a>
+							<ul class="subMenu dropDown hidden">
+								<li><a href="">History</a></li>
+								<li>
+									<a href="">Team</a>
+									<ul class="subMenu dropRight hidden">
+										<a href="">Testimonials</a>
+									</ul>
+								</li>
+								<li><a href="">FAQs</a></li>
+							</ul>
+						</li>
+						<li data-menuanchor="services"><a href="#services">Services</a></li>
+						<li data-menuanchor="specials"><a href="#specials">Specials</a></li>
+						<li data-menuanchor="contactUs"><a href="#contactUs">Contact Us</a></li>
+						<li data-menuanchor="newsBlog"><a href="#newsBlog">News/Blog</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<main>
+			<section class="padNo" data-target="home">
+				<div class="slider">
+					
+					<div id="featured"> 
+						<img src="/img/slides/slide01.jpg" alt="slide01" rel="slide01" />
+						<img src="/img/slides/slide02.jpg" alt="slide02" rel="slide02" />
+					</div>
+					<span class="orbit-caption" id="slide01">
+						<b class="bold">WE SOLVE</b><br>ANY PLUMBING<br> PROBLEMS!
+					</span>
+					<span class="orbit-caption" id="slide02">
+						<b class="bold">Slide 02</b><br>Desc 02
+					</span>
+				
+					<!-- <iframe src="js/orbitSlider/demo.html"></iframe> -->
+				</div>
+				<div class="content">
+					<button class="button round5px" id="clickHere">Click here!</button>
+				</div>
+		
+				<div id="modalForm">
+					<div id="formCaption" class="upper">Закажите обратный звонок</div>
+					<p>Бесплатная консультация по телефону:</p>
+					<div class="callBlock">
+						<div class="">
+							<span>&nbsp;</span>
+							<div class="phoneNumber black">+1 959 603 6035</div>
+							<p class="black">Введите ваш телефон и мы перезвоним</p>
+						</div>
+						<div class="form">
+							<form>
+								<div class="inputWrapper">
+									<b>+7</b> <input type="text" name="clientPhoneNumber" required="required">
+								</div>
+								<button class="button upper">Отправить</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		
+			<!-- <section data-target="aboutUs">
+				<div class="content">
+				</div>
+			</section> -->
+
+			<section data-target="services">
+				<div class="content">
+					<h1 class="upper">Wellcome!</h1>
+					<p class="fs24px">
+						We are there when you need us, ready to take care of any problem that you may have with
+						your plumbing systems. We are a Family owned and operated company with over 35 years of
+						experience in the Plumbing industry.
+					</p>
+					<div class="container">
+						<div class="grid_3 serviceItem">
+							<div class="icon">
+								<img src="img/icons/bath.png" alt="bath.png">
+							</div>
+							<h5>Epsum factorial</h5>
+							<p class="bottomGreyBorder">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatac cusantium doloremque laudantium,
+								tota rem aperiam, eaque ipsa quae ab illo inveore veritatis et quasi architecto beatae vitae.
+							</p>
+							<div class="price">
+								<span>Цена:</span>
+								<span>15 000</span>
+								<span>руб.</span>
+							</div>
+							<button class="button round5px upper">Заказать</button>
+						</div>
+						<div class="grid_3 serviceItem">
+							<div class="icon">
+								<img src="img/icons/counter.png" alt="counter.png">
+							</div>
+							<h5>Epsum factorial</h5>
+							<p class="bottomGreyBorder">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatac cusantium doloremque laudantium,
+								tota rem aperiam, eaque ipsa quae ab illo inveore veritatis et quasi architecto beatae vitae.
+							</p>
+							<div class="price">
+								<span>Цена:</span>
+								<span>15 000</span>
+								<span>руб.</span>
+							</div>
+							<button class="button round5px upper">Заказать</button>
+						</div>
+						<div class="grid_3 serviceItem">
+							<div class="icon">
+								<img src="img/icons/toilet.png" alt="toilet.png">
+							</div>
+							<h5>Epsum factorial</h5>
+							<p class="bottomGreyBorder">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatac cusantium doloremque laudantium,
+								tota rem aperiam, eaque ipsa quae ab illo inveore veritatis et quasi architecto beatae vitae.
+							</p>
+							<div class="price">
+								<span>Цена:</span>
+								<span>15 000</span>
+								<span>руб.</span>
+							</div>
+							<button class="button round5px upper">Заказать</button>
+						</div>
+						<div class="grid_3 serviceItem">
+							<div class="icon">
+								<img src="img/icons/radiator.png" alt="radiator.png">
+							</div>
+							<h5>Epsum factorial</h5>
+							<p class="bottomGreyBorder">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatac cusantium doloremque laudantium,
+								tota rem aperiam, eaque ipsa quae ab illo inveore veritatis et quasi architecto beatae vitae.
+							</p>
+							<div class="price">
+								<span>Цена:</span>
+								<span>15 000</span>
+								<span>руб.</span>
+							</div>
+							<button class="button round5px upper">Заказать</button>
+						</div>
+						<div class="grid_3 serviceItem">
+							<div class="icon">
+								<img src="img/icons/ventel.png" alt="ventel.png">
+							</div>
+							<h5>Epsum factorial</h5>
+							<p class="bottomGreyBorder">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatac cusantium doloremque laudantium,
+								tota rem aperiam, eaque ipsa quae ab illo inveore veritatis et quasi architecto beatae vitae.
+							</p>
+							<div class="price">
+								<span>Цена:</span>
+								<span>15 000</span>
+								<span>руб.</span>
+							</div>
+							<button class="button round5px upper">Заказать</button>
+						</div>
+						<div class="grid_3 serviceItem">
+							<div class="icon">
+								<img src="img/icons/pipes.png" alt="pipes.png">
+							</div>
+							<h5>Epsum factorial</h5>
+							<p class="bottomGreyBorder">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatac cusantium doloremque laudantium,
+								tota rem aperiam, eaque ipsa quae ab illo inveore veritatis et quasi architecto beatae vitae.
+							</p>
+							<div class="price">
+								<span>Цена:</span>
+								<span>15 000</span>
+								<span>руб.</span>
+							</div>
+							<button class="button round5px upper">Заказать</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section data-target="works" class="bottomGreyBorder">
+				<div class="content">
+					<h2 class="upper">Our work</h2>
+					<p class="fs24px">Please explore this section to learn more about what we do and how we do it</p>
+					<div id="couroselCtrl">
+						<div id="rotateBack" class="hover disabled"></div>
+						<div id="ritateForw" class="hover"></div>
+					</div>
+					<div class="container">
+						<div class="grid_4 workItem">
+							<a href="#" class="hoverBlock">
+								<span class="leftArrow"><b>&nbsp;</b></span>
+								<img src="img/pictures/01.jpg" alt="01.jpg">
+							</a>
+							<h6>Escorol gorilla</h6>
+							<p>
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatac cusantium doloremque lauda.
+							</p>
+							<a href="">Learn more &gt;</a>
+						</div>
+						<div class="grid_4 workItem">
+							<a href="#" class="hoverBlock">
+								<span class="leftArrow"><b>&nbsp;</b></span>
+								<img src="img/pictures/02.jpg" alt="02.jpg">
+							</a>
+							<h6>Escorol gorilla</h6>
+							<p>
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatac cusantium doloremque lauda.
+							</p>
+							<a href="">Learn more &gt;</a>
+						</div>
+						<div class="grid_4 workItem">
+							<a href="#" class="hoverBlock">
+								<span class="leftArrow"><b>&nbsp;</b></span>
+								<img src="img/pictures/03.jpg" alt="03.jpg">
+							</a>
+							<h6>Escorol gorilla</h6>
+							<p>
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatac cusantium doloremque lauda.
+							</p>
+							<a href="">Learn more &gt;</a>
+						</div>
+						<div class="grid_4 workItem">
+							<a href="#" class="hoverBlock">
+								<span class="leftArrow"><b>&nbsp;</b></span>
+								<img src="img/pictures/04.jpg" alt="04.jpg">
+							</a>
+							<h6>Escorol gorilla</h6>
+							<p>
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatac cusantium doloremque lauda.
+							</p>
+							<a href="">Learn more &gt;</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		
+			<section data-target="reviews" class="bottomGreyBorder">
+				<div class="content">
+					<div class="reviewItem">
+						<span>&nbsp;</span>
+						<p>
+							Sed ut perspiciatis unde omnis uptatac cusantium doloremque laudant, tota rem aperiam,
+							eaque ipsa quae ab illo inveore veritatis et quasi.
+						</p>
+						<div class="author">
+							<img src="img/pictures/face.png" alt="face.png">
+							<b>Robert Nelson</b>
+						</div>
+					</div>
+				</div>
+			</section>
+		
+			<section data-target="newsBlog" class="bottomGreyBorder newsBlog">
+				<div class="content">
+					<div class="grid_1_5 blogItem">
+						<h3>Latest From The Blog</h3>
+						<div class="container">
+							<div class="item">
+								<div class="caption upper">Dec 27.2012</div>
+								<h5><a href="">Consectetuer adipiscing elit</a></h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									<a href="">Praesent vestibulum molestie lacus</a>. Aenean nonummy hendrerit mauris.
+									Phasellus porta. Fusce suscipit varius mi. Cum sociis natopenatibus et magnis.
+								</p>
+								<p>
+									Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci.
+									Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									Mauris fermentum dictum magna. <a href="">Sed laore liquam leo</a>. Ut tellus dolor, dapibus eget,
+									elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna.
+								</p>
+							</div>
+						</div>
+						<a href="" class="bold">&gt; read more from the blog...</a>
+					</div>
+					
+					<div class="grid_3 newsItem">
+						<h3>News &amp; Events</h3>
+						<div class="container">
+							<div class="item">
+								<div class="caption upper">Feb 13.2014</div>
+								<h5><a href="">Praesent vestibulum molestie lacus</a></h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		
+			<section data-target="callMe">
+				<div class="content">
+					<h3>Вам перезвонить?</h3>
+					<div class="callBlock">
+						<div class="grid_2">
+							<span>&nbsp;</span>
+							<div class="phoneNumber white">+1 959 603 6035</div>
+							<p class="white">Введите ваш телефон и мы вам перезвоним</p>
+						</div>
+						<div class="grid_2">
+							<form>
+								<input type="text" name="clientPhoneNumber" required="required">
+								<button class="button upper">Отправить</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		
+		<footer>
+			<div class="content">
+				<div class="grid_2">
+					<h4 class="white">Quisque nulla libero porta</h4>
+					<p>
+						Vestibulum iaculis lacinia est. Proin dictum elemtum velit. Fusce euismod consequat ante.
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.
+						Aliquam congue fermentum nisl. Mauris accumsnulla vel diam. Sed in lacus ut enim adipiscing aliquet.
+						Nulla venenatis sit ...
+					</p>
+				</div>
+				<div class="grid_2">
+					<h4 class="white">Newsletter signup</h4>
+					<p>Larest information only. Day by day</p>
+					<form>
+						<input type="text" name="clientEmail" placeholder="enter your e-mail address" required="required">
+						<button class="button upper">Sign up</button>
+					</form>
+				</div>
+         	<div class="social">
+         		<div id="google" class="hover"></div>
+         		<div id="twiter" class="hover"></div>
+         		<div id="vk" class="hover"></div>
+         		<div id="facebook" class="hover"></div>
+         		<div id="vatnoklasniki" class="hover"></div>
+         	</div>
+         	<div class="footerContacts bottomGreyBorder">
+					<h4 class="white">Feel free to contact us:</h4>
+         		<span>
+         			<b>&nbsp;</b>
+         			+1 959 603 6035
+         		</span>
+         		<span>
+         			<b>&nbsp;</b>
+         			mail@demolink.org
+         		</span>
+         	</div>
+         	<div>
+         		<div class="copy grid_4"><span>AQ86</span> &copy; 2015 Privacy policy</div>
+         		<div class="footerMenu">
+	         		<ul>
+							<li data-menuanchor="hone"><a href="#hone">Home</a></li>
+							<li data-menuanchor="aboutUs"><a href="#aboutUs">About Us</a></li>
+							<li data-menuanchor="services"><a href="#services">Services</a></li>
+							<li data-menuanchor="specials"><a href="#specials">Specials</a></li>
+							<li data-menuanchor="contactUs"><a href="#contactUs">Contact Us</a></li>
+							<li data-menuanchor="newsBlog"><a href="#newsBlog">News/Blog</a></li>
+						</ul>
+					</div>
+         	</div>
+			</div>
+		</footer>
+	</body>
+</html>

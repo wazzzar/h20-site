@@ -1,0 +1,51 @@
+/* ================ MOBYMENU ================ */
+
+div.menu {
+	display: block;
+}
+
+body header {
+    background-color: #fffcf5;
+    height: 96px;
+}
+
+body header.transfered {
+	top: 0px;
+    height: 60px;
+	animation: none;
+}
+
+body header.transfered div.logo,
+body header.transfered div.logo img,
+body header.transfered nav.menu {
+	animation: none;
+}
+
+body header nav.menu {
+	display: none;
+	border: 1px solid #000;
+}
+
+body header nav.menu.mobyStyle {
+	top: 90px;
+	display: none;
+	height: auto;
+	background-color: #f7f7f7;
+	border-radius: 3px;
+	font-size: 18px;
+	animation: none;
+}
+
+body header nav.menu.mobyStyle ul li {
+	display: block;
+	margin: 6px;
+	border-radius: 3px;
+}
+
+body header nav.menu.mobyStyle ul li a { color: #000; }
+body header nav.menu.mobyStyle ul li.active a { color: #888; }
+body header nav.menu.mobyStyle ul li:hover a { color: #888; }
+
+body header nav.menu ul li:hover > ul.subMenu { display: none; }
+/* ================ /MOBYMENU ================ */
+

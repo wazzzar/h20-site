@@ -1,0 +1,101 @@
+/* ================ WIDER240 ================ */
+
+body header .orgName, body header .redPhone {
+	display: none;
+}
+
+body header.transfered .redPhone { display: block; }
+
+section[data-target="home"] .content {
+	position: static !important;
+	margin-top: 24px;
+	text-align: center;
+}
+
+#clickHere { margin-left:0; }
+
+div.slider { display:none; }
+
+div#modalForm { padding: 10px; font-size: 16px; width: 256px; }
+
+div#modalForm div#formCaption {
+    display: none;
+}
+
+div#modalForm div.callBlock .phoneNumber {
+    font-size: 28px;
+    margin: 0px;
+}
+
+div#modalForm div.inputWrapper {
+    margin: 8px;
+}
+
+div#modalForm div.callBlock input[type='text'] { font-size: 12px; }
+
+div#modalForm div.inputWrapper b { display: none; }
+
+section {
+	background-position: 50%;
+	text-align: center;
+}
+
+section h1 {
+    font-size: 48px;
+}
+
+section h2 {
+    font-size: 40px;
+}
+
+section h3 {
+    font-size: 30px;
+}
+
+.grid_1_5 {
+	width: 92%;
+}
+
+.grid_4 {
+	width: 92%;
+}
+
+.grid_2 {
+	width: 92%;
+	margin: 0;
+}
+
+.grid_3 {
+	width: 92%;
+}
+
+.grid_5 {
+	width: 92%;
+}
+
+.callBlock {
+	padding: 12px;
+	text-align: center;
+}
+
+div.callBlock form input[type='text'], footer form input[type='text'] {
+	width: 88%;
+}
+div.callBlock span {
+    display: none;
+}
+
+body footer .social {
+	margin-top: 24px;
+}
+
+body footer .grid_3 {
+	width: 92% !important;
+}
+
+.grid_3, .copy, .policy {
+	text-align: center !important;
+}
+
+/* ================ /WIDER240 ================ */
+

@@ -1,0 +1,70 @@
+/* ================ WIDER240 ================ */
+
+section {
+	background-position: 50%;
+	text-align: center;
+}
+
+section h3 {
+    margin-top: 60px;
+}
+
+h4#caption {
+    max-width: 220px;
+}
+
+section.start h2 {
+	margin-top: 20%;
+    font-size: 32px;
+}
+
+section.start h1 {
+	margin: 6% 0;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+section.aboutUs div#forDescriptions {
+	display: none;
+}
+
+.grid_1_5 {
+	width: 92%;
+}
+
+.grid_4 {
+	width: 92%;
+}
+
+.grid_2 {
+	width: 92%;
+	margin: 0;
+}
+
+.grid_3 {
+	width: 92%;
+}
+
+.grid_5 {
+	width: 92%;
+}
+
+section.contacts input[type='text'], section.contacts textarea {
+    width: 93%;
+    margin-left: 0;
+}
+
+body footer {
+	padding-bottom: 48px;
+}
+
+body footer .grid_3 {
+	width: 92% !important;
+}
+
+.grid_3, .copy, .policy {
+	text-align: center !important;
+}
+
+/* ================ /WIDER240 ================ */
+

@@ -1,0 +1,33 @@
+/* CONTAINER */
+div.slider div.orbit { width: 100%; height: 100%; position: relative; -moz-box-shadow: 0 0 10px rgba(0,0,0,.25); -webkit-box-shadow: 0 0 10px rgba(0,0,0,.25);  overflow: hidden; }
+div.slider div.orbit img { position: absolute; top: 0; left: 0; width:100%; height:100%; }
+div.slider div.orbit a img { border: none; }
+
+/* TIMER */
+div.slider div.timer { width: 40px; height: 40px; overflow: hidden; position: absolute; top: 10px; right:10px; opacity: .6; cursor: pointer; z-index: 5; }
+div.slider span.rotator { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: -20px; background: url('orbit/rotator-black.png') no-repeat; z-index: 3; }
+div.slider span.mask { display: block; width: 20px; height: 40px; position: absolute; top: 0; right: 0; z-index: 2; overflow: hidden; }
+div.slider span.rotator.move { left: 0; }
+div.slider span.mask.move { width: 40px; left: 0; background: url('orbit/timer-black.png') repeat 0px 0px;  }
+div.slider span.pause { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: 0px; background: url('orbit/pause-black.png') no-repeat; z-index: 4; opacity: 0; }
+div.slider div.timer:hover span.pause,
+div.slider span.pause.active, 
+div.slider div.timer:hover span.pause.active { opacity: 1; }
+
+/* CAPTIONS */
+div.slider div.caption { background: transparent; z-index: 3; position: absolute; bottom:-100px; color: #fff; padding: 0 0; left: 24%; }
+div.slider div.caption span { padding: 0px; font-size: 72px; font-family: "Roboto"; text-shadow: 0px 2px 2px rgba(0,0,0,.8); margin: 0; text-align: left; }
+div.slider div.caption span b { margin: 0; padding: 0; }
+div.slider .orbit-caption { display: none; }
+
+/* DIRECTIONAL NAV */
+div.slider div.orbit:hover div.slider-nav { display: block; }
+div.slider div.slider-nav { display: none; }
+div.slider div.slider-nav span { width: 33px; height: 33px; text-indent: -9999px; position: absolute; z-index: 1000; top: 43%; cursor: pointer; }
+div.slider div.slider-nav span.right { background: url('orbit/right-arrow.png'); right: 10px; }
+div.slider div.slider-nav span.left { background: url('orbit/left-arrow.png'); left: 10px; }   
+
+/* BULLET NAV */
+div.slider .orbit-bullets { position: absolute; z-index: 1000; list-style: none; bottom: 12px; left: 14px; margin: 0; padding: 0; }
+div.slider .orbit-bullets li { float: left; margin-left: 4px; cursor: pointer; color: #999; text-indent: -9999px; background: url(orbit/bullets.png) no-repeat; 0 0; width: 17px; height: 17px; overflow: hidden; }
+div.slider .orbit-bullets li.active { color: #0899C6; background-position: -17px 0; }
